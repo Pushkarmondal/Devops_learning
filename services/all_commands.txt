@@ -1,0 +1,25 @@
+# Start Docker
+# Start minikube 
+  minikube start
+
+# Check if minikube running or not
+  minikube status 
+
+# Build and push Docker image
+ docker build -t your-docker-username/self-healing-microservice:latest .
+ docker push your-docker-username/self-healing-microservice:latest
+
+# Apply Kubernetes resources
+ kubectl apply -f deployment.yaml
+ kubectl apply -f service.yaml
+
+# Verify deployment
+ kubectl get deployments
+ kubectl get pods
+ kubectl get services
+
+# Running deployment on web server
+ minikube service self-healing-microservice
+
+# Minikube dashboard
+  minikube dashboard
