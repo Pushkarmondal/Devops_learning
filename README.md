@@ -5,6 +5,8 @@ In this repo, I will upload my daily learnings and progress throughout my DevOps
 
 This file contains my learning resources and notes on various technologies, including AWS, Kubernetes (K8s), Networking, and Docker. I will continue to add more notes and links to this file.
 
+I added more stuff and sections like Linux, Jenkins, and Other CI/CD-related content.
+
 ---
 
 ## Notes Links
